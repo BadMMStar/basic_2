@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family:  "Open Sans", sans-serif, "Arial", serif;
+	background: #ffffff;
+	color: #000000;
+	height: 100%;
+}
+
+/****************************HEADER*****************************************/
+
+#main-navigator {
+	padding: 10px;
+	text-align: center;
+	border-bottom: #1abc9c  solid;
+}
+
+#main-navigator li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+}
+
+#main-navigator a{
+	text-decoration: none;
+}
+
+#main-navigator a:link{
+	color: #FF0000;
+}
+
+#main-navigator a:hover{
+	color: #1abc9c;
+}
+/* 
+#main-navigator a:visited{
+	color: #000099;
+}*/
+/****************************MAIN******************************************/
+main {
+	padding: 20px;
+}
+
+.main-content .list-services {
+	padding-left: 30px;
+}
+
+.main-content .portfolio {
+	padding: 20px;
+}
+
+.main-content h1{
+	text-align: center;
+}
+
+/****************************FOOTER***************************************/
